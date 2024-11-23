@@ -18,6 +18,7 @@ sed -i 's/192.168.1.1/192.168.2.1/g' package/base-files/files/bin/config_generat
 
 # Modify hostname
 sed -i 's/ABABAABB/LUNZN-S20P/g' target/linux/mediatek/files-5.4/arch/arm64/boot/dts/mediatek/mt7986a-ccc-ddd.dts
+rm -rf target/linux/mediatek/patches-5.4/9921-support-SX-7981R128-for-mtk-sdk-v7.6.6.1.patch
 
 # Modify default WiFi SSID
 #sed -i 's/ImmortalWrt-2.4G/CLX2.4G/g' package/mtk/applications/mtwifi-cfg/files/mtwifi.sh
