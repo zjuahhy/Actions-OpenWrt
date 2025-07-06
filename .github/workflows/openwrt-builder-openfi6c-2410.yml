@@ -131,7 +131,7 @@ jobs:
       run: |
         echo "release_tag=immortalwrt-mt798x-24.10${{ env.DEVICE_NAME }}${{ env.FILE_DATE }}" >> $GITHUB_OUTPUT
         touch release.txt
-        echo "${{ env.DEVICE_NAME }}, lan: 192.168.21.1, dockerman, diskman, mt_wifi-v7.6.6.1-fw-20240613(h3c), warp-mt7981-fw-20231228" >> release.txt
+        echo "Device${{ env.DEVICE_NAME }}, lan: 192.168.21.1, dockerman, openfi, homeproxy, qmodem, mt_wifi-v7.6.6.1-fw-20240613(h3c), warp-mt7981-fw-20231228" >> release.txt
         echo "status=success" >> $GITHUB_OUTPUT
 
     - name: Upload firmware to release
