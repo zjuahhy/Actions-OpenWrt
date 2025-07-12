@@ -18,7 +18,7 @@ on:
 
 env:
   REPO_URL: https://github.com/zjuahhy/immortalwrt-mt798x-24.10
-  REPO_BRANCH: openfi6c_new_re
+  REPO_BRANCH: openfi6c_new_re2
   FEEDS_CONF: feeds.conf.default
   CONFIG_FILE: hanwckf/mt7981-ax3000-openfi6c.config
   DIY_P1_SH: diy-part1.sh
