@@ -18,7 +18,7 @@ on:
 
 env:
   REPO_URL: https://github.com/zjuahhy/immortalwrt-mt798x-24.10
-  REPO_BRANCH: openwrt-24.10-6.6
+  REPO_BRANCH: openwrt-24.10-6.6_re
   FEEDS_CONF: feeds.conf.default
   CONFIG_FILE: hanwckf/mt7981-ax3000-openfi6c-6.6.config
   DIY_P1_SH: diy-part1.sh
@@ -131,7 +131,7 @@ jobs:
       run: |
         echo "release_tag=immortalwrt-mt798x-6.6${{ env.DEVICE_NAME }}${{ env.FILE_DATE }}" >> $GITHUB_OUTPUT
         touch release.txt
-        echo "immortalwrt-mt798x${{ env.DEVICE_NAME }}, lan: 192.168.21.1, openfi, homeproxy, qmodem, mt_wifi-v7.6.6.1-fw-20240613(h3c)" >> release.txt
+        echo "immortalwrt-mt798x${{ env.DEVICE_NAME }}, lan: 192.168.21.1, openfi, homeproxy, openclash, qmodem, mt_wifi-v7.6.6.1-fw-20240613(h3c)" >> release.txt
         echo "status=success" >> $GITHUB_OUTPUT
 
     - name: Upload firmware to release
