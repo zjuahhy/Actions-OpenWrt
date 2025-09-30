@@ -10,7 +10,7 @@
 # See /LICENSE for more information.
 #
 
-name: OpenWrt Builder-openfi6c-2410
+name: OpenWrt Builder-wr632ax-2410
 
 on:
   repository_dispatch:
