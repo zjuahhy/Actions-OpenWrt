@@ -21,7 +21,7 @@ sed -i 's/192.168.1.1/192.168.21.1/g' package/base-files/files/bin/config_genera
 
 # Add packages
 #git clone -b js https://github.com/gngpp/luci-theme-design package/luci-theme-design
-git clone https://github.com/rufengsuixing/luci-app-adguardhome package/luci-app-adguardhome
+#git clone https://github.com/rufengsuixing/luci-app-adguardhome package/luci-app-adguardhome
 #git clone https://github.com/messense/aliyundrive-webdav package/aliyundrive-webdav
 #git clone https://github.com/sirpdboy/netspeedtest package/homebox
 #git clone https://github.com/destan19/OpenAppFilter package/openappfilter
